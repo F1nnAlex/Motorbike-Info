@@ -850,7 +850,6 @@ input::-moz-focus-inner {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -864,6 +863,30 @@ input::-moz-focus-inner {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+	}
+
+	.button1{
+		box-shadow: inset 0 0 0 2px #ffffff;
+	}
+
+	.button2{
+		box-shadow: inset 0 0 0 2px #000000;
+	}
+
+	.button3{
+		box-shadow: inset 0 0 0 2px #9b0303;
+	}
+
+	.button4{
+		box-shadow: inset 0 0 0 2px #c95d04;
+	}
+
+	.button5{
+		box-shadow: inset 0 0 0 2px #0507af;
+	}
+
+	.button6{
+		box-shadow: inset 0 0 0 2px #0c8f00;
 	}
 
 		input[type="submit"]:hover, input[type="submit"]:active,
